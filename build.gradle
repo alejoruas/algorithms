@@ -21,3 +21,7 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+dependencies {
+	implementation group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
+}
